@@ -1,4 +1,53 @@
-.App {
+@font-face {
+  font-family: 'NexaRegular';
+  src: url('./fonts/NexaSlabDemo-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NexaBold';
+  src: url('./fonts/nexaslab-trial-black.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Use the custom font */
+body {
+  font-family: 'NexaRegular';
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #FFFFFF; /* Ant Design's default dark background */
+  color: white;
+  text-align: center;
+}
+
+.header-text {
+  font-family: 'NexaBold';
+  font-size: 30px;
+  line-height: 64px; /* Matches the height of Ant Design's Header */
+  color: #FA8942
+}
+
+
+.header-subtext{
+  font-family: 'NexaBold';
+  color: #B46E6C;
+}
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +84,5 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+
