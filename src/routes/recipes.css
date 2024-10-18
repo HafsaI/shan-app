@@ -1,0 +1,68 @@
+.recipe-container {
+  padding: 20px;
+}
+.recipe-header {
+  font-family: "NexaBold";
+  color: #cd1921;
+  font-size: 25px;
+}
+
+.sub-header {
+  font-family: "NexaBold";
+  color: #cd1921;
+  font-size: 20px;
+}
+.no-bullets {
+  list-style-type: none; /* Remove default bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.no-bullets li {
+  padding: 8px 0; /* Optional: Add some spacing between items */
+  font-size: 12px;
+  font-family: "NexaRegular";
+  color: #6d3b1c;
+}
+
+.numbered-list {
+  font-size: 12px;
+  font-family: "NexaRegular";
+  color: #6d3b1c;
+  padding: 0;
+  padding-left: 20px;
+  /* margin: 0; */
+}
+
+.no-bullets2 {
+  list-style-type: none; /* Remove default bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+.no-bullets2 li {
+  padding: 8px 0; /* Optional: Add some spacing between items */
+  font-size: 12px;
+  font-family: "NexaRegular";
+  color: #6d3b1c;
+}
+
+.numbered-text {
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  .recipe-container {
+    padding: 40px;
+  }
+  .no-bullets li{
+    font-size: 16px;
+
+  }
+  .no-bullets2 li{
+    font-size: 16px;
+  }
+  .numbered-list{
+    font-size: 16px;
+
+  }
+}

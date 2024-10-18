@@ -81,6 +81,8 @@
     font-size: 14px;
     margin-top: 16px;
     font-family: 'Inter';
+    text-decoration: none;
+    text-align: center;
   }
   
   .card-button:hover {
