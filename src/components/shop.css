@@ -1,0 +1,113 @@
+.shop-container {
+  padding: 20px;
+}
+
+.shop-container > p {
+  font-family: "NexaBold";
+  color: #cd1921;
+  font-size: 25px;
+  padding-left: 15px;
+}
+
+/* Container for product cards */
+.product-card-container {
+  display: flex;
+  flex-direction: column; /* Stack cards vertically on mobile */
+  justify-content: center;
+  align-items: center;
+  gap: 16px; /* Spacing between the cards */
+}
+
+/* Product card styling */
+.product-card {
+  background-color: #fff8e5;
+  border: 4px solid #fff2cf;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Full width on mobile */
+  max-width: 300px; /* Limit card width on larger screens */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* Image styling */
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain; /* Makes sure the image fits */
+}
+
+/* Product content */
+.product-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Product text */
+.product-text h3 {
+  font-size: 20px;
+  margin: 0;
+  color: #6d3b1c;
+  font-family: "NexaBold";
+}
+
+.product-text p {
+  font-size: 15px;
+  margin: 0;
+  color: #6d3b1c;
+  font-family: "NexaRegular";
+}
+
+/* Button styling */
+.product-button {
+  background-color: #cd1921;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 16px;
+  font-family: "Inter";
+  text-align: center;
+  text-decoration: none;
+}
+
+.product-button:hover {
+  background-color: #ff5722;
+}
+
+/* Larger screens (tablet and above) */
+@media (min-width: 768px) {
+  .shop-container {
+    padding: 40px;
+  }
+
+  .shop-container p {
+    font-size: 40px;
+  }
+  
+  .product-card-container {
+    flex-direction: row; /* Display cards side by side */
+    justify-content: center; /* Center cards in a row */
+  }
+
+  .product-card {
+    max-width: 45%; /* Cards take up less width on larger screens */
+    padding: 30px;
+  }
+
+  .product-text h3 {
+    font-size: 30px;
+  }
+
+  .product-text p {
+    font-size: 18px;
+  }
+}
