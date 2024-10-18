@@ -9,6 +9,7 @@ const Banner = () => {
   const goToNextSlide = () => {
     carouselRef.current.next(); // Moves to the next slide
   };
+  
   return (
     <Carousel ref={carouselRef}>
       {/* Slide 1 */}

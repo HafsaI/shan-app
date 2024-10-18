@@ -1,0 +1,15 @@
+.marquee-container{
+    background-color: #E41F27;
+    font-family: 'NexaRegular';
+    color: white;
+}
+
+.marquee-container p{
+    font-size: 16px;
+}
+@media only screen and (min-width: 768px) {
+    .marquee-container p{
+        font-size: '30px';
+        letter-spacing:2px ;
+    }
+}
