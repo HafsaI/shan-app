@@ -22,14 +22,13 @@ const Banner = () => {
               <p className="title-2">CHEF SUJAN </p>
               <p className="title-sub">of BAAR BAAR</p>
             </div>
-            {/* <h1 className='title-2'>CHEF SUJAN <br/>of BAAR BAAR</h1> */}
             <button
               type="primary"
               size="large"
               className="cta-button"
               onClick={goToNextSlide}
             >
-              About Chef Sujan {'▶'} 
+              About Chef Sujan  
             </button>
           </div>
           <div className="image-content">
