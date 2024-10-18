@@ -1,18 +1,19 @@
 import React from "react";
 import "./App.css";
-import { Col, Layout, Row } from "antd";
-import Banner from "./components/bannertop.js";
+import { Layout  } from "antd";
+// import Banner from "./components/bannertop.js";
 import TopHeader from "./components/header.js";
 import { MarqueeComponent } from "./components/marquee.js";
-const { Footer, Content } = Layout;
+import { Recipes } from "./components/recipes.js";
+const { Footer} = Layout;
 function App() {
   return (
-    <Layout>
+    <div>
       <TopHeader />
       <MarqueeComponent />
-
+      <Recipes/>
       <Footer>Footer</Footer>
-    </Layout>
+    </div>
   );
 }
 

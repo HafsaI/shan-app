@@ -8,7 +8,6 @@ const TopHeader = () => {
     </div>
     <div className="title-container">
       <div>
-        {" "}
         <h1 className="main-title">Shan Spice <span style={{fontFamily: "Poppins"}}>&</span> Bites</h1>
         <h2 className="sub-title">NYC Tour</h2>
       </div>
