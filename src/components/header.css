@@ -1,40 +1,53 @@
 .header {
-    background-color: white;
-    padding: 0 20px;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .header-col-center {
-    display: flex;
-    align-items: center;
-  }
-  
+  background-color: white;
+  padding: 0 20px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-col-center {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 30px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-title {
+  font-family: "NexaBold";
+  margin: 0;
+  font-weight: bold;
+  color: #fa8942;
+  font-size: 20px;
+}
+
+.sub-title {
+  font-family: "NexaBold";
+  margin: 0;
+  color: #b46e6c;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
   .logo-img {
-    height: 30px; 
+    height: 50px;
   }
-  
-  .title-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  
+
   .main-title {
-    font-family: 'NexaBold';
-    margin: 0;
-    font-weight: bold;
-    color: #FA8942;
+    font-size: 30px;
+  }
+
+  .sub-title {
     font-size: 20px;
   }
-  
-  .sub-title {
-    font-family: 'NexaBold';
-    margin: 0;
-    color: #B46E6C;
-    font-size: 16px;
-  }
-  
+}

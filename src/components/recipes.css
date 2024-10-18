@@ -22,7 +22,7 @@
   
   /* Card styling */
   .card {
-    background-color: #fdd835;
+    background-color: #FFD04E;
     border-radius: 30px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -109,10 +109,10 @@
     }
 
     .card-text h3 {
-      font-size: 30px;
+      font-size: 28px;
     }
     
     .card-text p {
-      font-size: 18px;
+      font-size: 17px;
     }
   }

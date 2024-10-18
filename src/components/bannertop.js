@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { Carousel, Button } from "antd";
 import "./banner.css";
+import { IoIosArrowForward } from "react-icons/io";
 
 const Banner = () => {
   const carouselRef = useRef(null);
@@ -9,9 +10,9 @@ const Banner = () => {
   const goToNextSlide = () => {
     carouselRef.current.next(); // Moves to the next slide
   };
-  
+
   return (
-    <Carousel ref={carouselRef}>
+    <Carousel ref={carouselRef} >
       {/* Slide 1 */}
       <div className="banner-slide">
         <div className="banner-container">
@@ -22,40 +23,39 @@ const Banner = () => {
               <p className="title-sub">of BAAR BAAR</p>
             </div>
             {/* <h1 className='title-2'>CHEF SUJAN <br/>of BAAR BAAR</h1> */}
-            <Button
+            <button
               type="primary"
               size="large"
               className="cta-button"
               onClick={goToNextSlide}
             >
-              About Chef Sujan
-            </Button>
+              About Chef Sujan {'▶'} 
+            </button>
           </div>
           <div className="image-content">
-            <img src="/images/man2.png" alt="Chef Sujan" />
+            <img src="/images/smallman.png" alt="Chef Sujan" />
           </div>
         </div>
       </div>
 
       {/* Slide 2 */}
       <div className="banner-slide">
-        <div className="banner-container">
+        <div className="banner-container2">
           <div className="image-content2">
             <img src="/images/man1.png" alt="Indian Cuisine" />
           </div>
-          <div className="text-content">
+          <div className="text-content2">
             <div>
               <p className="title-2">MEET</p>
               <p className="title-2">CHEF SUJAN </p>
               <p className="para-text">
                 Chef Sujan Sarkar of Baar Baar NYC, celebrated for his modern
                 Indian creations, has teamed up with Shan Foods to craft these
-                exclusive appetisers just for you! Bringing together Shan’s
-                iconic spices with Chef Sujan’s innovative touch, these recipes
+                exclusive appetisers just for you Bringing together Shan's
+                iconic spices with Chef Sujan's innovative touch, these recipes
                 are made to inspire so YOU CAN RECREATE AT HOME
               </p>
             </div>
-            {/* <h1 className='title-2'>CHEF SUJAN <br/>of BAAR BAAR</h1> */}
           </div>
         </div>
       </div>
@@ -64,4 +64,3 @@ const Banner = () => {
 };
 
 export default Banner;
-
