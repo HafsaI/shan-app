@@ -7,7 +7,7 @@
   font-family: 'NexaBold';
   color: #CD1921;
   font-size: 25px;
-   padding-left: 15px; 
+   padding-left: 25px; 
 
 }
   /* Container for cards */
@@ -95,8 +95,9 @@
     .container{
       padding: 40px;
     }
-    .container p{
+    .container > p{
       font-size: 40px;
+      padding-left: 15px; 
     
     }
     .card-container {

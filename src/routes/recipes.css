@@ -52,6 +52,7 @@
   margin: 0;
   padding: 0;
   font-family: 'NexaRegular';
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {

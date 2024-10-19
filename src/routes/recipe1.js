@@ -3,7 +3,7 @@ import "./recipes.css";
 export const Recipe1 = () => {
   return (
     <div className="recipe-container">
-      <h1 className="recipe-header">Tacos</h1>
+      <h1 className="recipe-header">Tandoori Tacos</h1>
       <h5 className="numbered-text">For the Tandoori Chicken:</h5>
       <ul className="no-bullets">
         <li>500g boneless chicken cut into small pieces</li>

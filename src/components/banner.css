@@ -14,12 +14,6 @@
   padding: 20px;
   padding-bottom: 0px;
 }
-.banner-container2 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-}
 
 .text-content {
   max-width: 50%;
@@ -45,24 +39,26 @@
 .image-content img {
   max-width: 100%;
   height: 300px;
+  object-fit: cover;
+  object-position: 20px center; 
 }
 
 .title-1 {
   font-family: "NexaRegular";
   color: #ef7123;
-  font-size: 13px;
+  font-size: 15px;
   margin: 0;
 }
 .title-2 {
   font-family: "NexaBold";
-  font-size: 16px;
+  font-size: 20px;
   color: #ef7123;
   margin: 0;
   margin-bottom: -10px;
 }
 .title-sub {
   font-family: "NexaBold";
-  font-size: 16px;
+  font-size: 20px;
   color: #ef7123;
   margin: 0;
   margin-left: 10px;
@@ -77,17 +73,51 @@
   font-family: "Poppins";
   font-size: 12px;
   font-weight: 600;
+  margin-right: 10px;
 }
 
 .image-content2 img {
   max-width: 100%;
-  height: 330px;
+  height: 300px;
+  object-fit: cover;
+  object-position: -70px center; 
+}
+.banner-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  padding-left: 0px;
+  padding-bottom: 0px;
 }
 
+
+/* .text-content2 {
+  max-width: 50%;
+}
+.para-text {
+  color: #6d3b1c;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.image-content2 img {
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: -50px center; 
+}
+.banner-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+} */
+
+
 @media (min-width: 768px) {
-  .text-content2 {
-    max-width: 40%;
-  }
   .para-text {
     font-size: 15px;
   }
@@ -108,6 +138,29 @@
   .cta-button {
     font-size: 14px;
   }
+
+  .image-content2 img {
+    max-width: 100%;
+    height: 300px;
+    object-fit: contain;
+    object-position: 0px center; 
+  }
+  .image-content img {
+    max-width: 100%;
+    height: 300px;
+    object-fit: contain;
+    object-position: 0px center; 
+  }
+  .banner-container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /* padding: 20px; */
+    /* padding-left: 0px; */
+    padding-bottom: 0px;
+  }
+  
 }
 /* Media Query for Small Screens */
 /* @media (max-width: 768px) {
