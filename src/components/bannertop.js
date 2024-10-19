@@ -11,7 +11,7 @@ const Banner = () => {
   };
 
   return (
-    <Carousel ref={carouselRef} autoplay autoplaySpeed={4000}>
+    <Carousel ref={carouselRef} autoplay autoplaySpeed={3000}>
       {/* Slide 1 */}
       <div className="banner-slide">
         <div className="banner-container">
