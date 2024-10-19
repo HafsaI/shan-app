@@ -43,32 +43,3 @@ export const Recipes = () => {
     </div>
   );
 };
-
-{
-  /* <Row  gutter={16} >
-        <Col xs={ 24 } md={ 12}>
-          <div className="card">
-            <img src="./images/tacos.png" alt={'title'} className="card-image" />
-            <div className="card-content">
-              <div className="card-text">
-                <h3>{"Tandoori Tacos"}</h3>
-                <p>{'Made with Shan Tandoori masala"'}</p>
-              </div>
-              <button className="card-button">{"Recipe"}</button>
-            </div>
-          </div>
-        </Col>
-        <Col xs={ 24 } md={ 12}>
-          <div className="card">
-            <img src="./images/tacos.png" alt={'title'} className="card-image" />
-            <div className="card-content">
-              <div className="card-text">
-                <h3>{"Tandoori Tacos"}</h3>
-                <p>{'Made with Shan Tandoori masala"'}</p>
-              </div>
-              <button className="card-button">{"Recipe"}</button>
-            </div>
-          </div>
-        </Col>
-      </Row> */
-}

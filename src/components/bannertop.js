@@ -1,8 +1,7 @@
 import React, { useRef } from "react";
-import { Carousel, Button } from "antd";
+import { Carousel } from "antd";
 import "./banner.css";
-import { IoIosArrowForward } from "react-icons/io";
-
+import { RightOutlined } from "@ant-design/icons";
 const Banner = () => {
   const carouselRef = useRef(null);
 
@@ -28,7 +27,7 @@ const Banner = () => {
               className="cta-button"
               onClick={goToNextSlide}
             >
-              About Chef Sujan
+              About Chef Sujan <RightOutlined />
             </button>
           </div>
           <div className="image-content">
