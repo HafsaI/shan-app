@@ -47,7 +47,7 @@ const Banner = () => {
               <p className="title-2">MEET</p>
               <p className="title-2">CHEF SUJAN </p>
               <p className="para-text">
-                Chef Sujan Sarkar of Baar Baar NYC, celebrated for his modern
+                Chef Sujan Sarkar of Baar Baar, celebrated for his modern
                 South Asian creations, has teamed up with Shan Foods to craft these
                 exclusive appetizers just for you! Bringing together Shan's
                 iconic spices with Chef Sujan's innovative touch, these recipes
